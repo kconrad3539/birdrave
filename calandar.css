@@ -1,0 +1,76 @@
+.container{
+	display: flex;
+	flex-flow: column;
+	height: 92vh;
+}
+
+.row1 {
+	display: flex;
+	flex-flow: row;
+	flex: 1;
+}
+
+.row2 {
+	display: flex;
+	flex-flow: row;
+	flex: 1;
+}
+
+.row3 {
+	display: flex;
+	flex-flow: row;
+	flex: 1;
+}
+
+.row4 {
+	display: flex;
+	flex-flow: row;
+	flex: 1;
+}
+
+.row5 {
+	display: flex;
+	flex-flow: row;
+	flex: 1;
+}
+
+.box1
+{
+	flex: 1;
+	background-color: goldenrod;
+	color: cornsilk;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+.box2{
+	flex: 1;
+	background-color: cornsilk;
+	color: goldenrod;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+.row0{
+	display: flex;
+	flex-flow: row;
+	flex: 1;
+}
+
+.box3{
+	flex: .75;
+	text-align: center;
+	padding-bottom: 8px;
+	background-color: dimgrey;
+}
+
+.title{
+	text-align: center;
+	background-color: dimgrey;
+	padding-top: 5px;
+}
+
+.top{
+	background-color: dimgrey;
+	color: cornsilk;
+}
