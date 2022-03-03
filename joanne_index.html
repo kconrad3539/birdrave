@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>For Joanne</title>
+	<link rel="stylesheet" href="joanne_index.css">
+	<link rel="stylesheet" href="joanne.js">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="heart_favicon.png">
+</head>
+<body>
+	<main>
+		<article>
+			<section class="mainsection">
+				<div class="section1">
+					<div class="name"></div>
+
+					<div class="projectInfo">
+						<p>Joanne Ellen Browne was born on November 11, 1948. Her sister Becky would take care of her when their mother slacked and took her places like the pool. Joanne graduated highschool, attended nursing school for a bit, but decided to go to secretary school instead. She eventually married her highschool sweetheart Steven Sura and gave birth to my mother. To my knowledge, they lived in Midland Park, New Jersey where my mom spent most of her time growing up. Eventually, Joanne and Steven got divorced and she moved to be closer to my mother. After a certain point, her health started to decline and she moved into independent living facilities, and then assisted living facilities. Joanne passed away on February 5, 2022.
+						</p>
+					</div>
+
+					<div class="aboutproject">
+						<button class="accordion">About This Project</button>
+						<div class="panel">
+						  <p>The goal was to create an experimental website that involves an interview. Around this time, my grandmother passed away, and I thought this was the perfect time to use art and design to express my feelings. This interview is more like an experience from my point of view, the grandaughter. Near the end of Joanne's life, she essentially became non-verbal, she mouthed words and used some body movements to convey her thoughts. And everytime I visited, I made sure to look around the room to absorb as much information as possible to try to remember when she was gone. So, this 'conversation' is pretty much the last one I remember with her.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="section2">
+					<div class="rose"></div>
+				</div>
+
+				<div class="section3">
+					<div class="words1">
+						<p> M: Hi mom, how are you?</p>
+						<p> A: Hi Gammy!</p>
+						<p> J: *head nod*</p>
+					</div>
+
+					<div class="pinboard"></div>
+					
+					<div class="words2">
+						<p> M: Have they been treating you well?</p>
+						<p> J: *shrug*</p>
+						<p> M: Okay, I'll talk to the nurses.</p>
+						<p> M: What have you been watching on tv?</p>
+						<p> J: *shrug and smile*</p>
+					</div>
+				</div>
+
+				<div class="section4">
+					<div class="dresser"></div>
+
+					<div class="words3">
+						<p> J: *points to shirt*</p>
+						<p> M: Is something wrong with your shirt?</p>
+						<p> M: Are you comfortable?</p>
+						<p> M: Hmmm. Is it new?</p>
+						<p> J: *head nod, yes*</p>
+						<p> M: Ohhh, a new pajama set? It's so pretty, and so soft.</p>
+						<p> M: Who got it for you?</p>
+						<p> J: *shrug*</p>
+					</div>
+				</div>
+
+				<div class="section5">
+					<div class="words4">
+						<p> A: Well it's very pretty, and looks comfortable.</p>
+						<p> J: *mouths 'thank you'*</p>
+						<p> J: *mouths 'coke'*</p>
+						<p> M: You need more coke?</p>
+						<p> J: *head nod, yes*</p>
+						<p> M: Do you want cookies too?</p>
+						<p> J: *head nod, yes*</p>
+					</div>
+
+					<div class="window"></div>
+				</div>
+
+				<div class="section6">
+					
+					<div class="gradient"></div>
+				</div>
+				<div class="section7">
+					<h2>Her Life as a Website</h2>
+					<p>I went to New Jersey for her celebration of life. I never realized there was so much I didn't know about her, and it made me wish that there was a way I could meet her when she was younger. She was beautiful, happy, young, full of life, and I feel like I never saw that side of her. That doesn't mean I don't love the version of her that I did see; the videos and pictures I saw of her then are just so different than my memories of her. But, going to her celebration of life made me feel like I saw a more complete version of her. This last conversation, and the last couple years of her life, don't even feel like it was her. Life is so complex, and I could never make a complete version of her life as a website...but this website is my gift to her.</p>
+
+					<div class="collage">
+						<div class="grid-container">
+						  <div class="grid-item1"></div>
+						  <div class="grid-item2"></div>
+						  <div class="grid-item3"></div>
+						  <div class="grid-item4"></div>
+						  <div class="grid-item5"></div>
+						  <div class="grid-item6"></div>
+						  <div class="grid-item7"></div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="section8">
+
+					
+				</div>
+			</section>
+		</article>
+	</main>
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var panel = this.nextElementSibling;
+				if (panel.style.display === "block") {
+					panel.style.display = "none";
+				} else {
+					panel.style.display = "block";
+				}
+			});
+		}
+	</script>
+</html>

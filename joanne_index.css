@@ -1,0 +1,420 @@
+.mainsection{
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	width: 5735px;
+	max-height: 100vh;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.section1 
+{
+	display: block;
+	flex-flow: column;
+	min-width: 100px;
+	
+	max-width: 500px;
+
+}
+
+.projectInfo 
+{
+	max-width: 400px;
+	height: 800px;
+	position: relative;
+	left: 60px;
+	top: -120px;
+	display: block;
+	white-space: normal;
+}
+
+.name
+{
+	background-image: url(name.png);
+	width: 470px;
+	height: 470px;
+	max-height: 500px;
+	max-width: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	top: -50px;
+	left: 15px;
+}
+
+.section2{
+	
+	flex-flow: column;
+	background-image: url(rose_outline.png);
+	width: 280px;
+	height: 805px;
+	max-height: 805px;
+	max-width: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	top: 45px;
+	left: 75px;
+	display: block;
+}
+
+.section2:hover{
+	
+	flex-flow: column;
+	background-image: url(rose_full.png);
+	width: 280px;
+	height: 805px;
+	max-height: 805px;
+	max-width: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	top: 45px;
+	left: 75px;
+	transition-delay: .1s;
+}
+
+
+.aboutproject{
+	position: relative;
+	top: -650px;
+	width: 400px;
+	height: 500px;
+}
+
+
+.accordion {
+  background-color: #ccc;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 400px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: relative;
+  left: 58px;
+}
+
+.active, .accordion:hover 
+{
+  background-color: #5860A3;
+  color: white;
+}
+
+.panel {
+	position: absolute;
+	left: 45px;
+	width: 400px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  white-space: normal;
+  color: black;
+  left: 60px;
+}
+
+.pinboard {
+	background-image: url(pinboard_outline2.png);
+	width: 400px;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.pinboard:hover {
+	background-image: url(pinboard_full2.png);
+	width: 400px;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.section3 {
+	position: relative;
+	top: 55px;
+	left: 170px;
+}
+
+.words1
+{
+	position: relative;
+	margin-bottom: 45px;
+}
+
+.words2 {
+	position: relative;
+	margin-top: 45px;	
+}
+
+
+.section4{
+	position: relative;
+	top: 55px;
+	right: -220px;
+}
+
+.dresser{
+	background-image: url(tv_outlines.png);
+	width: 400px;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;	
+}
+
+.dresser:hover{
+	background-image: url(tv_full.png);
+	width: 400px;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;	
+}
+
+.words3{
+	position: relative;
+	margin-top: 30px;	
+	right: -50px;
+}
+
+.section5{
+	position: relative;
+	top: 55px;
+	right: -310px;
+}
+
+.window{
+	background-image: url(window_outline.png);
+	width: 400px;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;	
+	right: 35px;	
+}
+
+.window:hover{
+	background-image: url(window_full.png);
+	width: 400px;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;	
+	right: 35px;	
+}
+
+.gradient
+{
+	background-image: url(gradient4.png);
+	width: 400px;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;	
+	left: 400px;
+}
+
+
+.section7{
+	max-width: 1000px;
+	height: 800px;
+	position: relative;
+	left: 650px;
+	top: 55px;
+	display: block;
+	white-space: normal;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.grid-container {
+
+  position: relative;
+  
+  padding: 10px;
+}
+
+.grid-container > div {
+  
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-item1
+{
+	background-image: url(wiggles.png);
+	width: 400px;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	left: -35px;
+	grid-column-start: 1;
+  grid-column-end: 3;
+  top: 50px;
+}
+
+.grid-item2
+{
+	background-image: url(price_outlines.png);
+	width: 250px;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	left: 390px;
+	top: -230px;
+	
+}
+
+.grid-item2:hover{
+	background-image: url(price_full.png);
+	width: 250px;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	left: 390px;
+	top: -230px;
+	
+}
+
+
+.grid-item3
+{
+	background-image: url(joandbird1.png);
+	width: 400px;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	left: 650px;
+	
+  top: -530px;
+}
+
+.grid-item4
+{
+	background-image: url(coke_outline.png);
+	width: 250px;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	left: -70px;
+  top: -510px;
+}
+
+.grid-item4:hover
+{
+	background-image: url(coke_full.png);
+	width: 250px;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	left: -70px;
+  top: -510px;
+}
+
+.grid-item5
+{
+	background-image: url(pigtail.png);
+	width: 300px;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	left: 170px;
+	grid-column-start: 1;
+  grid-column-end: 3;
+  top: -800px;
+}
+
+.grid-item6
+{
+	background-image: url(young.png);
+	width: 330px;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	left: 500px;
+	grid-column-start: 1;
+  grid-column-end: 3;
+  top: -1150px;
+}
+
+
+.grid-item7
+{
+	background-image: url(cookie_outline.png);
+	width: 170px;
+	height: 170px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	left: 840px;
+  top: -1440px;
+}
+
+
+.grid-item7:hover
+{
+	background-image: url(cookie_full.png);
+	width: 170px;
+	height: 170px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	left: 840px;
+  top: -1440px;
+}
+
+.section8{
+	background-image: url(final.png);
+	width: 1500px;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;	
+	left: 920px;
+}
+
